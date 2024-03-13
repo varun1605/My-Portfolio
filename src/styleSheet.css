@@ -73,7 +73,6 @@
 .skill-card-containers {
   display: flex;
   justify-content: space-between;
-  
 }
 .skill-card-containers img {
   height: 220px;
@@ -88,10 +87,6 @@
   object-fit: fill;
   /* background-color: black; */
 }
-.skill-card-containers img:hover{
-  border: 2px solid ;
-  border-color:rgb(118, 220, 16);
-}
 .body-div {
   display: flex;
   border: 2px solid black;
@@ -101,13 +96,11 @@
     rgb(239, 239, 13) 35%,
     rgb(26, 26, 130) 35%
   );
-  
 }
 .body-div h1 {
   margin-top: 100px;
   margin-left: 20px;
   /* margin-left: 150px; */
-
 }
 .body-div img {
   margin-left: 250px;
@@ -119,20 +112,75 @@
   /* margin-right: 10px; */
   color: azure;
 }
-.body-div h1{
+.body-div h1 {
   margin-right: 150px;
   color: azure;
 }
-.about-me-div{
-  margin-right: 250px;
+.about-me-div {
+  margin-right: 100px;
+  /* margin-bottom: 20px;
+  wid */
+  width: 680px;
+  margin-bottom: 10px;
+  /* margin-top: 50px; */
 }
-
-.skill-card{
+.about-me-div p{
+  font-family: cursive;
+  font-size: larger;
+}
+.about-me-div h1{
+  font-family: cursive;
+}
+.skill-card {
   position: relative;
   margin: 10px;
   transition: transform 0.3s ease-in-out;
+  /* box-shadow: 2px 12px 5px wheat; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.skill-card:hover{
+.skill-card:hover {
   transform: scale(1.1);
+}
+.project-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.project-header {
+  display: flex;
+  border-bottom: 2px solid black;
+  margin: 5px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  /* width: 15px; */
+  height: px;
+}
+.project-image-div {
+  background-image: linear-gradient(
+    to right,
+    rgb(239, 239, 13) 35%,
+    rgb(26, 26, 130) 35%
+  );
+  border-radius: 20px;
+  margin: 15px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.content-project-div h2 {
+  margin-left: 207px;
+  color: white;
+  /* font-size: x-large; */
+  font-family: cursive;
+}
+.content-project-div p {
+  color: white;
+  font-weight: bold;
+  font-family: cursive;
+  margin-left: 207px;
 }

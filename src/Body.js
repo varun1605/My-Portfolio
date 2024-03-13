@@ -15,12 +15,22 @@ const Body = () => {
     //   </div>
     // </div>
     <div className="body-div ">
-    <img src={nobg} alt="myImage"></img>
-    <div className="about-me-div">
-      <h1>About Varun</h1>
-      <p>This is the section to write a intro about me including my work ex, projects, my hobbies and my skils</p>
-    </div>
-      
+      <img src={nobg} alt="myImage"></img>
+      <div className="about-me-div">
+        <h1>About Varun</h1>
+        <p>
+          Varun Mangrulkar is a seasoned software developer with two years of
+          professional experience, currently excelling in frontend development
+          at Infosys, a prestigious MNC. His expertise lies in crafting
+          cutting-edge web solutions using React.js, Node.js, and other modern
+          technologies. Passionate about continuous learning, Varun is actively
+          exploring AWS and DevOps to further enhance his technical prowess.
+          Beyond his technical endeavors, Varun is a dedicated fitness
+          enthusiast, regularly hitting the gym to maintain peak physical
+          condition. His love for nature extends to wildlife photography, where
+          he captures the beauty of the natural world through his lens.{" "}
+        </p>
+      </div>
     </div>
   );
 };
