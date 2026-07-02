@@ -7,6 +7,10 @@ jobs:
       runs-on: ubuntu-latest
 
       steps:
+
+       - name: Checkout-action
+         uses: actions/checkout@v7
+
        - name: Hello message
          run: echo "This is the first github-action test"
 
