@@ -3,15 +3,15 @@ name: First github action test
 on: push
 
 jobs: 
-    Github actions testing:
-    runs-on: ubuntu-latest
+    Github_actions_testing:
+      runs-on: ubuntu-latest
 
-    steps:
-    - name: Hello message
-      run: echo "This is the first github-action test"
+      steps:
+       - name: Hello message
+         run: echo "This is the first github-action test"
 
-    - name: Read file
-      run: ls 
+       - name: Read file
+         run: ls 
     
-    - name: Write file 
-      run: cat README.md
+       - name: Write file 
+         run: cat README.md
