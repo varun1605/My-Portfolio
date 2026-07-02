@@ -1,0 +1,17 @@
+name: First github action test
+
+on: push
+
+jobs: 
+    Github actions testing:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Hello message
+      run: echo "This is the first github-action test"
+
+    - name: Read file
+      run: ls 
+    
+    - name: Write file 
+      run: cat README.md
